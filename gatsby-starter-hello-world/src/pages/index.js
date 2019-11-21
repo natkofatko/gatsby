@@ -2,6 +2,7 @@ import React from "react"
 import Title from "./../components/title"
 import Effect from "./../components/effect"
 import Header from "../components/header"
+import { Link } from "gatsby"
 
 const IMAGE = "https://source.unsplash.com/random/400x200"
 export default () => {
@@ -17,6 +18,8 @@ export default () => {
       <Header text="Just created">
         <Effect></Effect> <button>Hello</button>
       </Header>
+
+      <Link to="/">Home</Link>
 
       <h1>Hello Gatsby</h1>
       <h2>What a World</h2>
